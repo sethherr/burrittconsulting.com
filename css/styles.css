@@ -1,0 +1,445 @@
+	* { 
+    margin: 0; 
+    padding: 0; 
+	}
+
+
+html, body, #outer, #wrapper, #outer table, #outer td {
+      font-family: "futura";
+	}
+
+body {
+font-size:62.5%;
+}
+
+#wrapper {
+  }
+
+#outer { 
+    position: fixed; 
+}
+
+#outer div {
+    height:200%;
+    left:-50%;
+    position:absolute;
+    top:-50%;
+    width:200%;
+}
+
+#outer td {
+top: 0;
+    text-align:center;
+    vertical-align:middle;
+}
+
+#outer img {
+    margin:0 auto;
+    min-height:50%;
+    min-width:50%;
+}
+
+
+
+
+
+p {
+padding-top: 25px;
+}
+
+a {
+text-decoration: none;
+color: #0079C1;
+}
+
+a:hover{
+color:black;
+}
+
+#portrait {
+height: 180px;
+}
+
+a.pdf {
+color: white;
+font-size: 11px;
+background-color: black;
+padding: 5px;
+}
+
+a:hover.pdf {
+background-color: #0079C1;
+}
+
+#wrapper {
+margin-left: 50px;
+background-image: url(images/tile.png);
+padding: 50px 20px 20px 20px;
+line-height: 1.3em;
+font-family: Georgia, times, serif;
+font-size: 1.2em;
+width: 850px;
+height: 560px;
+}
+
+#columnright {
+float: right;
+width: 550px;
+margin-top: 20px;
+padding-top: 25px;
+padding-left: 20px;
+}
+
+#columnleft {
+margin-top: 20px;
+padding-left: 10px;
+padding-top: 25px;
+float: left;
+width: 220px;
+height: 500px;
+}
+
+#left {
+margin-top: 20px;
+padding-left: 10px;
+padding-top: 25px;
+float: left;
+width: 400px;
+}
+
+#right {
+margin-top: 20px;
+padding-left: 10px;
+padding-top: 25px;
+float: right;
+width: 400px;
+}
+
+#leftbottom {
+width: 225px;
+padding-top: 1.5em;
+}
+
+#footer {
+margin: 0 auto;
+padding: 20px;
+height: 25px;
+clear: both;
+width: 800px;
+}
+
+
+
+p#contact {
+margin-left: .5em;
+margin:0 0 0 .5em;
+}
+
+
+p.tagline {
+padding-top: 20px;
+padding-bottom: 20px;
+font-variant: small-caps;
+font-size: 1.7em;
+color: #0079C1;
+}
+
+
+h1 {
+font-variant: small-caps;
+font-size: 1.3em;
+font-weight: bold;
+padding-bottom: .5em;
+color: black;
+}
+
+h1.title {
+padding-left: 10px;
+font-variant: small-caps;
+font-size: 2.9em;
+font-weight: normal;
+}
+
+i.year{
+color: black;
+}
+
+h2{
+font-weight: bold;
+}
+
+h2 i{
+font-weight: normal;
+}
+
+h3 {
+font-variant: small-caps;
+font-size: 1.3em;
+font-weight: bold;
+padding-bottom: .5em;
+color: #0079C1;
+}
+
+h4 {
+font-weight: bold;
+margin-bottom: -1em;
+}
+
+ul.resumelist {
+padding-left: .8em;
+padding-bottom: .5em;
+}
+
+/*resume navigation*/
+
+#bottomnav {
+font-size: 1.3em;
+color: black;
+}
+
+#bottomnav a:hover {
+color:#0079C1;
+}
+
+#bottomnav a#active2 {
+color:#0079C1;
+}
+
+
+#bottomnav a {
+color: black;
+}
+
+#bottomnav a#active2:hover {
+color: #black;
+}
+
+#nav {
+width: 100%;
+color: black;
+}
+
+#nav li a:active {
+color: #0079C1;
+}
+
+#nav a#active {
+color: #0079C1;
+}
+
+
+#nav a#active:hover {
+color: white;
+}
+
+#nav li a:hover {
+color: white;
+background-color: #0079C1;
+}
+
+#nav:hover {
+color: #0079C1;
+}
+
+/*resume navigation ends */
+
+ul li.bullet {
+list-style-image: url(/images/bullet.jpg);
+}
+
+
+
+h1.logo {
+vertical-align: middle;
+margin: 0 auto;
+padding: 10px 20px 30px 20px;
+width: 800px;
+height: 50px;
+}
+
+
+.headline {
+font-weight: 100;
+padding-bottom: 20px;
+color: #000;
+line-height: 34px;
+font-size: 2.7em;
+}
+
+
+
+img.dad {
+width: 225px;
+}
+
+.address {
+text-align: left;
+margin-top: -1.5em;
+}
+
+#copyright {
+color: #000;
+font-size: 1.1em;
+}
+
+/* Navigation Starts */
+
+#nav {
+width: 848px;
+border-bottom: 1px solid black;
+border-top: 1px solid black;
+margin: 0 auto;
+position: absolute;
+}
+
+#nav li {
+display: block;
+float: left;
+}
+
+#nav ul li {
+line-height: 2em;
+}
+
+#nav ul {
+hover: #0079C1;
+type-style: none;
+}
+
+body#home #nav a.home {background-color: #0079C1; color:white;}
+body#contact #nav a.contact {background-color: #0079C1; color:white;}
+body#essays #nav a.essays {background-color: #0079C1; color:white;}
+body#essays2 #nav a.essays2 {background-color: #0079C1; color:white;}
+body#projectexamples #nav a.projectexamples {background-color: #0079C1; color:white;}
+body#resume #nav a.resume {background-color: #0079C1; color:white;}
+body#testimonials #nav a.testimonials {background-color: #0079C1; color:white;}
+
+#nav a {
+font-weight: normal;
+font-variant: small-caps;
+font-size: 1.2em;
+list-style: none;
+text-decoration: none;
+color: black;
+padding: 0 61.9px 0 10px;
+display: block;
+border-width: 0 0 .1em 0;
+}
+
+#nav li a:active {
+color: #0079C1;
+}
+
+#nav a#active {
+color: #0079C1;
+}
+
+ul li a.active {
+color: black;
+}
+
+#nav a#active:hover {
+color: white;
+}
+
+#nav li a:hover {
+color: white;
+background-color: #0079C1;
+}
+
+#nav:hover {
+color: #0079C1;
+}
+
+/*essay links*/
+
+ul.links {
+font-weight: normal;
+text-decoration: none;
+line-height: 15px;
+
+}
+
+ul.links li {margin-bottom: 15px;}
+#leftessay {
+margin-top: 20px;
+padding-left: 10px;
+padding-top: 25px;
+float: left;
+width: 250px;
+}
+
+#wrap {
+filter:alpha(opacity=80);
+	-moz-opacity:0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+	}
+
+#essay {
+height: 100%;
+filter:alpha(opacity=100);
+	-moz-opacity:1;
+	-khtml-opacity: 1;
+	opacity: 1;
+margin-top: 26px;
+padding: 0 20px 20px 20px;
+overflow: auto;
+padding-top: 25px;
+float: right;
+background-color: white;
+line-height: 1.3em;
+font-family: georgia, times, serif;
+font-size: 1.2em;
+width: 550px;
+background-color: white;
+}
+
+/* CONTACT */
+#contact-area {
+	width: 600px;
+	margin-top: 25px;
+	margin-left: -40px;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 471px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+}
+
+#contact-area textarea {
+	height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #000;
+}
+
+#contact-area input.submit-button {
+	color: white;
+	background-color: #0079C1;
+	height: 30px;
+	width: 70px;
+	float: right;
+	border: none;
+	font-family: Georgia, times, serif;
+	font-size: 1.2em;
+	font-variant: small-caps;
+	margin-right: 15px;
+}
+
+label {
+	font-variant: small-caps;
+
+	float: left;
+	text-align: right;
+	margin-right: 14px;
+	width: 100px;
+	padding-top: 5px;
+	font-family: Georgia, times, serif;
+font-size: 1.0em;
+}
+
