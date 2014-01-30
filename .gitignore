@@ -1,0 +1,8 @@
+# Ignore all logfiles and tempfiles.
+/tmp
+.DS_Store
+_site
+
+# Ignore rvm stuff
+.ruby-gemset
+.ruby-version
